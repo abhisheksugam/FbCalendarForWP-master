@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{7651cc87-cafb-4909-b6ca-e677f21a01d2}" Title="FbCalendar" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Keval Langalia" Description="This app will fetch all &quot;Status Updates&quot; shared publicly (does not include Check In, Photo uploads or any other than status) from your Facebook account, for you in a single place. Then Classify those Statuses based on it's updation date." Publisher="Keval S. Langalia" PublisherID="{54eebd56-7fd2-4242-86e5-2b809bea5679}">
+    <IconPath IsRelative="true" IsResource="false">Logo.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="FbCalendarToken" TaskName="_default">
+        <TemplateCycle>
+          <SmallImageURI IsRelative="true" IsResource="false">Logo (300x300).png</SmallImageURI>
+          <Title>FbCalendar</Title>
+          <Photo01ImageURI IsRelative="true" IsResource="false">LargeFlipTile_691x336 (1).png</Photo01ImageURI>
+          <Photo02ImageURI IsRelative="true" IsResource="false">MediumFlipTile_336x336 (1).png</Photo02ImageURI>
+          <Photo03ImageURI IsRelative="true" IsResource="false">
+          </Photo03ImageURI>
+          <Photo04ImageURI IsRelative="true" IsResource="false">
+          </Photo04ImageURI>
+          <Photo05ImageURI IsRelative="true" IsResource="false">
+          </Photo05ImageURI>
+          <Photo06ImageURI IsRelative="true" IsResource="false">
+          </Photo06ImageURI>
+          <Photo07ImageURI IsRelative="true" IsResource="false">
+          </Photo07ImageURI>
+          <Photo08ImageURI IsRelative="true" IsResource="false">
+          </Photo08ImageURI>
+          <Photo09ImageURI IsRelative="true" IsResource="false">
+          </Photo09ImageURI>
+          <Count>0</Count>
+          <HasLarge>True</HasLarge>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
+        </TemplateCycle>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
